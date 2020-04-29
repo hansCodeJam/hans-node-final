@@ -1,0 +1,7 @@
+- app.js line 26 app.use('/', blogRouter);
+- npm install http-errors
+- added .env
+- added require('dotenv').config(); in app.js
+- added const mongoose = require('mongoose') in Blog.js
+- added const blogRouter = require('./routes/blog'); in line 9 app.js
+- changed require('..BlogController') -> require(Blog) in line 10 blog.js
